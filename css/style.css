@@ -11,7 +11,7 @@
     border:1px solid var(--navigation-color);
     background-color:var(--background-color);
     cursor: pointer;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding: 20px 48px;
 
  }
@@ -26,7 +26,15 @@
     border: 2px solid red;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 14px;
+   font-size: 14px
+ }
+
+ .container{
+   width: 906px;
+   border: 2px solid red;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
  }
  .card{
     width: 420px;
