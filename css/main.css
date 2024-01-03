@@ -1,1 +1,113 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: none;
+  margin: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 906px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrap__button {
+  border: 1px solid #7D7D7D;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 20px 48px;
+  -webkit-transition: color 250ms ease-in-out, border 250ms ease-in-out;
+  transition: color 250ms ease-in-out, border 250ms ease-in-out;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrap__button:hover {
+  color: #03A9F4;
+  border: 1px solid #03A9F4;
+}
+
+.nav {
+  text-align: center;
+}
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.nav__link {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  margin-right: 100px;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+.nav__link:hover {
+  color: #03A9F4;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+.main-wrap {
+  margin-top: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  width: 420px;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 126px;
+}
+.card__one {
+  margin-bottom: 62px;
+}
+.card__span {
+  color: #B4AD9E;
+  margin-top: 62px;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 32px;
+}
+.card__title {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 32px;
+}
+.card__tekst {
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+}/*# sourceMappingURL=main.css.map */

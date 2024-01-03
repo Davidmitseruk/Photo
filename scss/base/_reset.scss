@@ -1,0 +1,20 @@
+body{
+    box-sizing: border-box;
+   }
+   ul{
+       list-style: none;
+       padding: none;
+       margin: none;
+   }
+   h1, h2,h3 ,h4 ,h5 ,h6 , p{
+     margin: 0;
+   }
+   a{
+       text-decoration: none;
+   }
+   .container{
+    width: 906px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
